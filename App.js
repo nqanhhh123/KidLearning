@@ -4,7 +4,7 @@ import { StatusBar } from "expo-status-bar";
 import { useRef, useState } from "react";
 import {
   Image,
-  SafeAreaView,
+  SafeAreaView, 
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -132,6 +132,7 @@ export default function App() {
     );
   };
 
+  
   const renderDoneButton = () => {
     return (
       <TouchableOpacity
