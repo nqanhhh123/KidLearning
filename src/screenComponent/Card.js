@@ -3,6 +3,7 @@ import React from "react";
 import { Feather, Ionicons } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
+
 const Card = () => {
   const navigation = useNavigation();
   return (
